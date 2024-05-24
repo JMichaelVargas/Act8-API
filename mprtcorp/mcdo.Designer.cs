@@ -109,7 +109,7 @@
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.panel2.Size = new System.Drawing.Size(811, 341);
+            this.panel2.Size = new System.Drawing.Size(811, 360);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1
@@ -162,6 +162,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(244, 28);
             this.comboBox1.TabIndex = 12;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
             // postbtn
             // 
@@ -242,7 +243,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.BackgroundImage = global::mprtCorp.Properties.Resources.mcdo;
-            this.ClientSize = new System.Drawing.Size(825, 682);
+            this.ClientSize = new System.Drawing.Size(825, 701);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
